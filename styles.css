@@ -48,3 +48,35 @@ p {
 .img-div p {
   padding: 15px 0;
 }
+
+.text-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.text-container h3 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.text-container ul {
+  margin-bottom: 50px;
+}
+
+.text-container ul li {
+  text-align: left;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.text-container p {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+span.bold {
+  font-weight: bold;
+}
