@@ -80,3 +80,8 @@ p {
 span.bold {
   font-weight: bold;
 }
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
