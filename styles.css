@@ -1,3 +1,4 @@
+/* Reset deafult styles */
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +16,14 @@ p {
   line-height: 1.4em;
 }
 
+/* Main outer container */
 #main {
   background-color: #eee;
   margin: 30px 10px;
   padding: 30px 20px;
 }
 
+/* Title and description */
 #header {
   text-align: center;
 }
@@ -30,6 +33,7 @@ p {
   font-size: 36px;
 }
 
+/* Outer container of the image and image description */
 .img-div {
   background-color: #fff;
   text-align: center;
@@ -45,6 +49,7 @@ p {
   padding: 15px 0;
 }
 
+/* Outer container with Dr. Borlaug's biography */
 .text-container {
   width: 40%;
   margin: 0 auto;
@@ -77,11 +82,13 @@ span.bold {
   font-weight: bold;
 }
 
+/* Footer */
 .footer {
   text-align: center;
   margin-top: 50px;
 }
 
+/* Mobile design */
 @media only screen and (max-width: 600px) {
   .text-container {
     width: 80%;
