@@ -26,6 +26,7 @@ p {
 /* Title and description */
 #header {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #header h1 {
