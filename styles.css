@@ -91,6 +91,10 @@ span.bold {
 
 /* Tablet design */
 @media only screen and (max-width: 768px) {
+  p {
+    font-size: 12px;
+  }
+
   .text-container {
     width: 60%;
   }
