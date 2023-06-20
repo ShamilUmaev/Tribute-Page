@@ -95,8 +95,22 @@ span.bold {
     font-size: 12px;
   }
 
+  h4 {
+    font-size: 16px;
+  }
+
   .text-container {
     width: 60%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  p {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 14px;
   }
 }
 
@@ -110,4 +124,5 @@ span.bold {
   .text-container {
     width: 80%;
   }
+
 }
