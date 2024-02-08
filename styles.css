@@ -7,20 +7,23 @@
 
 body {
   background-color: #fff;
+  background-color: #eee;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333;
 }
 
 p {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.4em;
 }
 
 /* Main outer container */
 #main {
-  background-color: #eee;
   margin: 30px 10px;
   padding: 30px 20px;
+  min-width: 375px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 /* Title and description */
@@ -52,7 +55,7 @@ p {
 
 /* Outer container with Dr. Borlaug's biography */
 .text-container {
-  width: 55%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -90,24 +93,20 @@ span.bold {
 }
 
 /* Tablet design */
-@media only screen and (max-width: 768px) {
-  p {
-    font-size: 12px;
+@media only screen and (min-width: 768px) {
+  .text-container ul li {
+    font-size: 18px;
   }
-
+  p {
+    font-size: 16px;
+  }
   .text-container {
-    width: 60%;
+    max-width: 768px;
   }
 }
 
-/* Mobile design */
-@media only screen and (max-width: 600px) {
-  main {
-    min-width: 400px;
-    margin: 0 auto;
-  }
-
-  .text-container {
-    width: 80%;
+@media only screen and (min-width: 992px) {
+  .text-container h3 {
+    font-size: 24px;
   }
 }
